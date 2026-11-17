@@ -1,0 +1,10 @@
+node_modules/
+.cache/
+*.bak
+*.bak-*
+*.tgz
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
