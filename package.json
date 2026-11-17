@@ -1,0 +1,21 @@
+{
+  "name": "@amahahanasaki/dsh-ra2-mix",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DeepSeek Harness plugin: read and extract Red Alert 2 / Yuri's Revenge MIX archives (including Blowfish-encrypted ones), and launch XCC Mixer",
+  "license": "MIT",
+  "author": "AmahaHanasaki",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "red-alert-2", "mix", "modding"],
+  "repository": { "type": "git", "url": "git+https://github.com/AmahaHanasaki/dsh-ra2-mix.git" },
+  "homepage": "https://github.com/AmahaHanasaki/dsh-ra2-mix#readme",
+  "bugs": { "url": "https://github.com/AmahaHanasaki/dsh-ra2-mix/issues" },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "mix.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "LICENSE"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

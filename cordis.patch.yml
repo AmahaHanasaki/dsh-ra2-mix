@@ -1,0 +1,6 @@
+- insert:
+    - id: ra2-mix-tools
+      name: '@amahahanasaki/dsh-ra2-mix'
+      config:
+        mixerPath: ''
+        defaultMix: ''

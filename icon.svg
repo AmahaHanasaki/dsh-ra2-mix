@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="#17223b"/>
+  <path d="M14 40 L14 24 L26 24 L26 32 L20 32 L20 40 Z" fill="#e8a33d"/>
+  <path d="M22 40 L22 28 L32 28 L32 36 L28 36 L28 40 Z" fill="#f2c14e"/>
+  <path d="M28 40 L28 34 L38 34 L38 40 Z" fill="#d63447"/>
+  <text x="32" y="53" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e8e8f0" text-anchor="middle">MIX</text>
+</svg>
